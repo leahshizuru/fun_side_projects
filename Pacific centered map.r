@@ -66,9 +66,10 @@ bbox2SP(n = 30, s = -50,
         proj4string = world@proj4string) %>% 
   plot(col = rgb(red = 0, green = 1, blue = 0, alpha = 0.5), add = TRUE)
 
-##L.S. modification. 
+#L.S. modification. 
 sf_use_s2(FALSE)
 
+#I also modified ymax in the following code to include Japan and neighboring countries (per Anne Lee's request).
 pacific_crop <- world_crop %>% 
   st_as_sf() %>% 
   st_shift_longitude() %>% 
