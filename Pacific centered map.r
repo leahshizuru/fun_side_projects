@@ -1,5 +1,5 @@
 ## Pacific centered map ##
-# author Valentin Stefan
+# author Valentin Stefan (https://github.com/valentinitnelav/valentinitnelav.github.io/blob/master/assets/2020-05-15-pacific-map-voronoi/pacific-map-voronoi.Rmd)
 # edited by Leah Shizuru
 
 # The first set of error messages was reached when trying to load in Natural Earth data. Warning messages:
