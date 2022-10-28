@@ -2,7 +2,7 @@
 # author Valentin Stefan (https://github.com/valentinitnelav/valentinitnelav.github.io/blob/master/assets/2020-05-15-pacific-map-voronoi/pacific-map-voronoi.Rmd)
 # edited by Leah Shizuru
 
-# The first set of error messages was reached when trying to load in Natural Earth data. Warning messages:
+# The first set of error messages was reached while trying to load in Natural Earth data. Warning messages:
 
 # 1: In RGEOSUnaryPredFunc(spgeom, byid, "rgeos_isvalid"): Ring Self-intersection at or near point 78.719726559999998 31.887646480000001
 # 2: In gDifference(world, box_cut):Invalid objects found; consider using set_RGEOS_CheckValidity(2L) 
